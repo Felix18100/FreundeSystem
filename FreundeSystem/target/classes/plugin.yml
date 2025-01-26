@@ -1,0 +1,25 @@
+name: Freunde
+version: '1.0-SNAPSHOT'
+author: Felix_1810
+main: de.felix.freundesystem.Freunde
+api-version: '1.16'
+commands:
+  freunde:
+    usage: /freunde add <player> | remove <player> | accept <player> | deny <player> | list
+permissions:
+  friend.add:
+    description: Allows players to add friends.
+    default: true
+  friend.remove:
+    description: Allows players to remove friends.
+    default: true
+  friend.accept:
+    description: Allows players to accept friend requests.
+    default: true
+  friend.deny:
+    description: Allows players to deny friend requests.
+    default: true
+  friend.list:
+    description: Allows players to view their friend list.
+    default: true
+
